@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+}
+
+.container {
+    white-space: nowrap;
+}
+
+.box {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.box:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: goldenrod;
+}
+
+.box.last-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin-right: 0;
+}
